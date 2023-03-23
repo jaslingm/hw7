@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.skip a {
+    position: absolute;
+    top: -40px; 
+  }
+  
+  /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
+  .skip a:focus {
+    top: 20px;
+  }
+  
+body{
+    background-image: url("../images/background.jpeg");
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.overview{
+    background-attachment: fixed; /* Parallax effect */     
+    background-position: center;  /* Parallax effect */
+    background-repeat: no-repeat; /* Parallax effect */
+    background-size: cover;       /* Parallax effect */
+    color: white;
+    height: 400px;                /* Parallax effect */
+}
+
+.overview p{
+    color: steelblue;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 0 100px;
+    text-align: center;
+  }
+  
+#logo {
+    width: 10%;
+    height: auto;
+}
+img #logo {
+    display: grid;
+    align-items: center;
+}
+
+nav li{
+    display:inline;
+    padding-right:20px;
+}
+
+/*color of the nav links*/
+nav a{
+    color: steelblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+/*fix the bad bunny header later*/
+header img {
+    width: 150px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+.home {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px 100px;
+    background-color: black;
+    border-radius: 30px;
+}
